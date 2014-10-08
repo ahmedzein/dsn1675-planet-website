@@ -29,10 +29,24 @@ img {
   display: block;
   width: 100%;
 }
-
 div {
-    background-color: #dddddd;
     overflow: hidden;
+}
+
+.section-light {
+    background-color: #efefef;
+}
+
+.section-dark {
+    background-color: #ccc;
+}
+
+.section-medium {
+    background-color: #e2e2e2;
+}
+
+.center {
+    text-align: center;
 }
 
 h1 {
@@ -53,7 +67,6 @@ a {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #ccc;
 }
 
 .nav a {
@@ -323,6 +336,10 @@ a {
 }    
 }
 
+h2 {
+    background-color: #e2e2e2;
+}
+
 
 
 /*Typography */
@@ -330,7 +347,7 @@ a {
 
 
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
