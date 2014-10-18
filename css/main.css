@@ -234,6 +234,9 @@ a {
   display: inline-block;
   visibility: visible;
 }
+    .centerfooter {
+        text-align: center;
+    }
 
 }
 
@@ -299,9 +302,10 @@ a {
   display: inline-block;
   visibility: visible;
 }
-    text-right {
-        text-align: right;
+    .text-left {
+        text-align: left;
     }
+    .textfooter {
 }
 
 @media only screen and (min-width: 60em) {
