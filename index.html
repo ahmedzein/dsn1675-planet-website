@@ -10,10 +10,16 @@
 </head>
 
 <body>
-    <div class="section-dark">
+    
+    <ul class="skip-link">
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#navigation">Skip to main navigation</a></li>
+    </ul>
+    
+    <div role="banner" class="section-dark unit-xs-1">
         <h1 class="title peta gutter-half section-dark">Venus</h1>
 
-        <nav>
+        <nav id="navigation" role="navigation">
             <ul class="nav mega">
                 <li class="gutter-half"><a href ="index.html">Planet</a></li>
                 <li class="gutter-half"><a href ="venus.html">Moon</a></li>
@@ -23,7 +29,8 @@
     </div>
 
 
-
+    <article role="main" id="main">
+        
     <div class= "grid pad-bottom">
         <div class="section-medium unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
             <h2 class="peta push-0 island-half">Venus, the second planet in the Solar System.</h2>
@@ -104,7 +111,7 @@
         </div>
 
     </div>
-
+    </article>
     <div>
 
         <footer class="section-dark grid push-0">
