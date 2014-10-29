@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Exploration</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/grids.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -35,7 +35,61 @@
     
     </div>
     
-</body>
+    <div>
+        
+        <div class="tera section-medium island center">
+            <h2>Join Venus's Exploration Team</h2>
+            <p>Are you interested in exploring Venus with a group of extermely talented people? Sign up below!</p>
+        </div>
+        
+    </div>
+        
+    <form class="island section-light" method="post">    
+
+        <div>
+            <label for="name">Name</label>
+            <input id="name" class="basic">
+        </div>
+
+        <div>
+            <label for="email" class="pad-t">E-mail</label>
+            <input type="email" id="email" class="basic">
+        </div>
+
+        <div>
+            <label for="age" class="pad-t">Age</label>
+            <input type="number" id="age" class="basic">
+        </div>
+
+        <div class="pad-b">
+            <p class="pad-t form-p">Your level of awsomeness: </p>
+            
+            <span class="radio">
+                <input type="radio" id="meh" name="level-of-awesomeness">
+                <label for="meh">Meh...</label>
+            </span>
+            
+            <span class="radio">
+                <input type="radio" id="pretty-good" name="level-of-awesomeness">
+                <label for="pretty-good">Pretty Good</label>
+            </span>
+            
+            <span class="radio">
+                <input type="radio" id="super" name="level-of-awesomeness">
+                <label for="super">Super!</label>
+            </span>
+        </div>
+
+        <div>
+            <label for="explain">Explain why you deserve to go:</label>
+            <textarea id="explain"></textarea>
+        </div>
+
+        <div class="center">
+             <button type="submit">Sign Up</button>
+        </div>
+    </form>
+
     
 <footer class="section-medium">
 
@@ -58,5 +112,5 @@
     </div>
 </footer> 
     
-</footer>    
+</body>    
 </html>
