@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -113,15 +112,15 @@ div {
 }
 
 .section-light {
-    background-color: #efefef;
+    background-color: #FFFF99;
 }
 
 .section-dark {
-    background-color: #ccc;
+    background-color: #FF6600;
 }
 
 .section-medium {
-    background-color: #e2e2e2;
+    background-color: #980000;
 }
 
 .center {
@@ -136,30 +135,35 @@ h1 {
 .nav {
     list-style-type: none;
     padding: 0;
+    text-decoration: none;
 }
 
 a {
     text-decoration: none;
-    color: #0074d9;
 }
 
-.nav{
+.nav {
     margin: 1em 0;
     padding: 0;
     list-style-type: none;
 }
 
-.nav a {
+.nav a,
+.nav a: link,
+.nav a: visited{
     display: block;
     text-decoration: none;
     color: #0074D9;
     padding: 0.5em 0.75em;
 }
 
-a:hover,
-a:active{ /*
-its okay to remove the focus rectangle for mouse user IT'S Not okay to remove it for keyboard users!!!!!!!*/
-    outline: none;
+.nav a:hover,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #0074D9;
+    color: #fff;
 
 }
 
